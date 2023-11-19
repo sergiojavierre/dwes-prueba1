@@ -15,7 +15,7 @@ public class DBConnection {
             try {
                 connection = DriverManager.getConnection(
                         "jdbc:mysql://localhost:3306/planificador",
-                        "admin", "admin");
+                        "root", "root");
             } catch (SQLException e) {
                 throw new RuntimeException(e);
             }

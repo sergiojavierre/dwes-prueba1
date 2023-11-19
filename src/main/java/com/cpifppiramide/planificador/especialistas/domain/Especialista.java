@@ -4,9 +4,9 @@ import com.cpifppiramide.planificador.especialidades.domain.Especialidad;
 
 public class Especialista {
 
-    private final Integer id;
-    private final String nombre;
-    private final Especialidad especialidad;
+    private Integer id;
+    private String nombre;
+    private Especialidad especialidad;
 
     public Especialista(Integer id, String nombre, Especialidad especialidad) {
         this.id = id;
@@ -18,11 +18,23 @@ public class Especialista {
         return id;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public String getNombre() {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public Especialidad getEspecialidad() {
         return especialidad;
+    }
+
+    public void setEspecialidad(Especialidad especialidad) {
+        this.especialidad = especialidad;
     }
 }

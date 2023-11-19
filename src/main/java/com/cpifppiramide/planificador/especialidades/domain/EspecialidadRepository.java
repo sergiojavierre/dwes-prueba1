@@ -7,6 +7,6 @@ import java.util.List;
 public interface EspecialidadRepository {
 
     public List<Especialidad> listaTodas();
-    public List<Especialista> listaEspecialistas(Especialidad especialidad);
+    public List<Especialidad> listaTodasDetalle();
 
 }

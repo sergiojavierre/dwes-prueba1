@@ -4,7 +4,5 @@ import java.util.List;
 
 public interface EspecialistaRepository {
 
-    public List<Especialista> listaTodas();
-    public Especialista guarda(Especialista nuevo);
-
+    public List<Especialista> listaTodos();
 }
